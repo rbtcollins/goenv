@@ -29,7 +29,7 @@ easy to fork and contribute any changes back upstream.
 
     **Zsh note**: Modify your `~/.zshenv` or `~/.zshrc` file instead of `~/.bash_profile`.
     
-    **Ubuntu note**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.
+    **Ubuntu note**: Modify your `~/.profile` file instead of `~/.bash_profile`.
     
     **General warning**: There are some systems where the `BASH_ENV` variable is configured
     to point to `.bashrc`. On such systems you should almost certainly put the abovementioned line
@@ -45,7 +45,7 @@ easy to fork and contribute any changes back upstream.
         
     **Zsh note**: Modify your `~/.zshenv` or `~/.zshrc` file instead of `~/.bash_profile`.
     
-    **Ubuntu note**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.
+    **Ubuntu note**: Modify your `~/.profile` file instead of `~/.bash_profile`.
 
     **General warning**: There are some systems where the `BASH_ENV` variable is configured
     to point to `.bashrc`. On such systems you should almost certainly put the abovementioned line
@@ -63,6 +63,8 @@ easy to fork and contribute any changes back upstream.
    You can now begin using goenv.
 
         $ exec $SHELL
+        
+   **Ubuntu note**: Add `-l` to get a new login shell an have the PATH settings take effect.
 
 6. **Install Go versions into `$GOENV_ROOT/versions`.**
    For example, to download and install Go 1.12.0, run:
