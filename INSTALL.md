@@ -19,7 +19,7 @@ easy to fork and contribute any changes back upstream.
 
     **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
 
-    **Ubuntu note**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.
+    **Ubuntu note**: Modify your `~/.profile` file instead of `~/.bash_profile`.
 
 3. **Add `goenv init` to your shell** to enable shims, management of `GOPATH` and `GOROOT` and auto-completion.
    Please make sure `eval "$(goenv init -)"` is placed toward the end of the shell
